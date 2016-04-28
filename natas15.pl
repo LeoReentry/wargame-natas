@@ -31,7 +31,6 @@ my $length = check_length();
 say "\rThe password length for nata16 is $length";
 
 # Password
-my $length = 32;
 my $password = '';
 my @chars = (a..z, A..Z, 0..9);
 sub determine_password {
